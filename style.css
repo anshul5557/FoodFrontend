@@ -1,0 +1,421 @@
+.nav{cursor: pointer;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    z-index: 999;
+    
+}
+.logo2{
+    width: 180px;
+}
+.image4{
+    width: 199px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    list-style: none;
+}
+.navb{
+    width: 32%;
+}
+li:hover{
+    color: red
+}
+.photo{
+    width: 100%;
+    height: 100%;
+}
+.about{
+    width: 80%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.aboutimage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    
+
+}
+.aboutim{
+    width: 82%;
+    height: 100%;
+    opacity: 100%;
+    border-radius: 5px; 
+    transition: 0.5s;
+    
+}
+.aboutcontant{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.aboutimagein{
+    width: 100%;
+    height:100%;
+
+}
+.imagein{
+    width: 100%;
+}
+.aboutim:hover{cursor: pointer;
+    transform:scale(1.1);
+}
+
+.lite:hover{color: black;cursor: pointer;
+    opacity: 50%;
+}
+.A:hover{color: black;cursor: pointer;
+    opacity: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.ourmenu{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.imagesec{
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.imagesec2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+button
+{
+margin-left: 25px;
+width: 70%;
+height: 10%;
+background-color: black;
+color: white;
+border-radius: 5px;
+}
+.bt{
+   margin-top: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 8px solid rgb(255, 255, 255);
+    width: 215px;
+    height: 358px;
+    transition: 0.8s;
+}
+
+.bt:hover{
+box-shadow: 2px -8px 80px -8px black;
+   
+    
+}
+.BBOX{height: 899px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(255, 247, 0);
+    /* box-shadow: 2px -8px 80px -8px black; */
+    opacity: 90%;
+    margin-bottom: 100px;
+}
+.menuheading{
+    width: 100%;
+    height: 180px;
+    background-color:#fddd19;
+    box-sizing: border-box;
+    border: 2px solid ;
+    border-radius: 18px;
+
+
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.image-ico{
+width: 100px;
+}
+.image-zm{
+    width: 170px;
+    height: 150px;
+}
+
+.image-ico:hover{color: black;}
+.image-ww{
+    margin-top: 20px;
+
+}
+.ourmenu{
+    margin-top: 100px;
+}
+.helpcon{
+    width: 80%;
+    height: 250px;
+    
+}
+.low{
+    color: rgb(0, 107, 71);
+}
+.form{
+    width: 80%;
+    height: 350px;
+    left: 100%;
+}
+hr{
+    width: 100%;
+}
+.help .form input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    text-size-adjust: 20%;
+    box-sizing: border-box;
+}
+.btn{
+    
+    background-color: blue;
+    margin-left: 35%;
+    width: 25%;
+}
+.size{
+    width: 80%;
+    margin-left: auto;
+}
+/* styles.css */
+
+.su{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.unique-requirement-container {
+    background-color: #ffffff;
+    padding:30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    animation: uniqueFadeIn 1s ease-in-out;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.unique-submission-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    animation: uniqueSlideIn 1s ease-in-out;
+}
+
+.unique-submission-message {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+    animation: uniqueSlideIn 1.5s ease-in-out;
+}
+
+.unique-home-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    animation: uniqueSlideIn 2s ease-in-out;
+}
+
+.unique-home-link:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+
+@keyframes uniqueFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes uniqueSlideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@media  screen and ( max-width: 320px) {
+    .nav{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 15% !important;
+
+    }
+    .navb{
+        width: 100% !important;
+
+    }
+    .photo{
+        margin-top: 96px !important;
+        
+    }
+    .imagesec{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .imagesec2{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .BBOX{
+        height: 100% !important;
+    }
+    .icons{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .menuheading{
+        height: 100% !important;
+    }
+    .form{
+        margin-top: 473px !important;
+    }
+    .btn{
+        margin-left: 0% !important;
+        width: 42% !important;
+    }
+    
+.about {
+    width: 94% !important;
+    height: 100%;
+    background-color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    margin-left: 5% !important;
+    flex-direction: column !important;
+}
+
+.aboutcontant {
+    width: 75% !important;
+    height: 100% !important;
+    text-align: center!important;
+}
+
+}
+@media  screen and ( max-width: 768px){
+    .image4{
+        width: 159px;
+    }
+ 
+.bt {
+    margin-top: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 8px solid rgb(255, 255, 255);
+    width: 174px;
+    height: 300px;
+    transition: 0.8s;
+
+    }
+    .BBOX{
+        height: 762px;
+    }
+    .nav{
+        width: 98%;
+    }
+    .ourmenu{
+        margin-top: 0px;
+    }
+
+}
+@media  screen and ( max-width: 445px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 15%;
+
+    }
+    .navb{
+        width: 100%;
+
+    }
+    .photo{
+        margin-top: 96px;
+        
+    }
+    .imagesec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagesec2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .BBOX{
+        height: 100%;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menuheading{
+        height: 100%;
+    }
+    .form{
+        margin-top: 273px;
+    }
+    .btn{
+        margin-left: 0%;
+        width: 42%;
+    }
+    
+.about {
+    width: 94%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    flex-direction: column;
+}
+
+.aboutcontant {
+    width: 75%;
+    height: 100%;
+    text-align: center;
+}
+
+}
